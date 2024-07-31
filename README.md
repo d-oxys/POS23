@@ -79,8 +79,13 @@ Nest is [MIT licensed](LICENSE).
 - **URL** : `/auth/login`
 - **Method** : `POST`
 - **Request** Body:
+
   - `nip` as `string`
   - `password` as `string`
+
+- **example** Body:
+  - "nip": "123456",
+  - "password": "password",
 - **Response**:
 
 ```json
