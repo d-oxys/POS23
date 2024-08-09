@@ -187,6 +187,7 @@
   "userId": "number",
   "storeSiteId": "number"
 }
+```
 
 ```json
 {
