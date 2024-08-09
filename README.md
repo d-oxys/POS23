@@ -182,7 +182,7 @@
 
 ### Request Body:
 
-````json
+```json
 {
   "userId": "number",
   "storeSiteId": "number"
@@ -210,7 +210,7 @@
   },
   "error": false
 }
-````
+```
 
 ## add user to Site Data
 
@@ -220,11 +220,13 @@
 
 ### Request Body:
 
-````json
+```json
 {
   "userId": "number",
   "newStoreSiteId": "number"
 }
+```
+
 ```json
 {
   "status": 201,
@@ -246,4 +248,4 @@
   },
   "error": false
 }
-````
+```
