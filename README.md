@@ -91,8 +91,7 @@
   "name_channel": "string",
   "brand": "string"
 }
-
-**Response**:
+````
 
 ```json
 {
