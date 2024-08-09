@@ -92,7 +92,7 @@
   "brand": "string"
 }
 
-- **Response**:
+**Response**:
 
 ```json
 {
