@@ -38,7 +38,7 @@
 }
 ```
 
-### Add User Data
+### Get User Data
 
 - **URL**: `/users`
 - **Method**: `GET`
