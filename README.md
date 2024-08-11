@@ -358,16 +358,9 @@
 
 ### Get Checkout Details by Kode Checkout
 
-- **URL**: `/checkout/details`
+- **URL**: `/checkout`
 - **Method**: `GET`
-- **Query Parameters**:
-
-  - `userId`: `number` - ID dari user yang ingin dicari.
-
 - **Contoh Request**:
-
-  - `/checkout/details?userId=1`
-
 - **Response**:
 
 ```json
