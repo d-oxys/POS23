@@ -46,6 +46,7 @@
 
   - `q` (optional): `string` - Nama user yang ingin dicari.
   - `limit` (optional): `number` - Batas jumlah user yang ingin diambil. Default adalah 100.
+  - `id_site` (optional): `number` -Menampilkan user menurut id_site
 
 - **Contoh Request**:
 
