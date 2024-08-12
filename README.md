@@ -309,6 +309,7 @@
   - `offset` (optional): `string` - ?
   - `limit` (optional): `number` - Batas jumlah artikel yang ingin diambil. Default adalah 100.
   - `artikel` (optional): `number` - mencari nama artikel tapi hanya satu
+  - `description` (optional): `number` - mencari artikel berdasarkan description
 
 - **Contoh Request**:
 
