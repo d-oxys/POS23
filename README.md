@@ -300,6 +300,49 @@
 }
 ```
 
+### Get All Artikel Data By EMACS API
+
+- **URL**: `https://emacs-api.duapuluhtiga.com/api/artikel/`
+- **Method**: `GET`
+- **Query Parameters**:
+
+  - `offset` (optional): `string` - ?
+  - `limit` (optional): `number` - Batas jumlah artikel yang ingin diambil. Default adalah 100.
+  - `artikel` (optional): `number` - mencari nama artikel tapi hanya satu
+
+- **Contoh Request**:
+
+  - `GET https://emacs-api.duapuluhtiga.com/api/artikel/all?limit=2&offset=5`
+
+- **Response**:
+
+```json
+[
+    {
+        "description": "R.LT. PRO TECH 8.8, BLK, 14\"",
+        "artikel": "920000107001",
+        "generic": "920000107",
+        "brand": "BODYPACK",
+        "group": "BAGS",
+        "kategori": "BACKPACK",
+        "sub_kategori": "LAPTOP BACKPACK",
+        "harga_jual": 595000,
+        "hpp": 291322
+    },
+    {
+        "description": "R.LT. +CAM 3575-01, GRY, 14\"",
+        "artikel": "920000121001",
+        "generic": "920000121",
+        "brand": "BODYPACK",
+        "group": "BAGS",
+        "kategori": "BACKPACK",
+        "sub_kategori": "CAMERA BACKPACK",
+        "harga_jual": 650000,
+        "hpp": 165414
+    }
+]
+```
+
 ### Create Checkout
 
 - **URL**: `/checkout`
