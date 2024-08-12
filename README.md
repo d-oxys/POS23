@@ -44,12 +44,12 @@
 - **Method**: `GET`
 - **Query Parameters**:
 
-  - `query` (optional): `string` - Nama user yang ingin dicari.
+  - `q` (optional): `string` - Nama user yang ingin dicari.
   - `limit` (optional): `number` - Batas jumlah user yang ingin diambil. Default adalah 100.
 
 - **Contoh Request**:
 
-  - `GET /users?query=John&limit=10`
+  - `GET /users?q=John&limit=10`
 
 - **Response**:
 
@@ -109,12 +109,12 @@
 - **Method**: `GET`
 - **Query Parameters**:
 
-  - `query` (optional): `string` - Nama channel store site yang ingin dicari.
+  - `q` (optional): `string` - Nama channel store site yang ingin dicari.
   - `limit` (optional): `number` - Batas jumlah store site yang ingin diambil. Default adalah 100.
 
 - **Contoh Request**:
 
-  - `/store-sites?query=Online&limit=10`
+  - `/store-sites?q=Online&limit=10`
 
 - **Response**:
 
