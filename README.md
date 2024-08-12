@@ -186,23 +186,6 @@
   "storeSiteId": "number"
 }
 ```
-
-- **Response**:
-
-```json
-{
-  "status": 201,
-  "message": "Store site updated successfully",
-  "storeSite": {
-    "ID": 1,
-    "site_channel": "edited online",
-    "name_channel": "edited Online Store",
-    "brand": "bodypack"
-  },
-  "error": false
-}
-```
-
 - **Response**:
 
 ```json
