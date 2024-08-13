@@ -47,30 +47,37 @@
   - `q` (optional): `string` - Nama user yang ingin dicari.
   - `limit` (optional): `number` - Batas jumlah user yang ingin diambil. Default adalah 100.
   - `id_site` (optional): `number` -Menampilkan user menurut id_site
+  - `isNotAssigned` (optional): `boolean` -Menampilkan user yang belum di tambahkan ke site
 
 - **Contoh Request**:
 
-  - `GET /users?q=John&limit=10`
+  - `GET users?q=J&limit=10`
 
 - **Response**:
 
 ```json
 {
-  "status": 200,
-  "message": "Users retrieved successfully",
-  "users": [
-    {
-      "name": "John Doe",
-      "email": "john.doe@example.com",
-      "role": "admin"
-    },
-    {
-      "name": "Jane Smith",
-      "email": "jane.smith@example.com",
-      "role": "user"
-    }
-  ],
-  "error": false
+    "status": 200,
+    "message": "Users retrieved successfully",
+    "users": [
+        {
+            "id": 1,
+            "nip": "123456",
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "role": "admin",
+            "site": "Online Store"
+        },
+        {
+            "id": 2,
+            "nip": "654321",
+            "name": "Jane Smith",
+            "email": "jane.smith@example.com",
+            "role": "cashier",
+            "site": "Offline Store"
+        }
+    ],
+    "error": false
 }
 ```
 
