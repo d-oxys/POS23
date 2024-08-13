@@ -148,6 +148,57 @@
 }
 ```
 
+
+### Get Site Data EMACS API
+
+- **URL**: `https://emacs-api.duapuluhtiga.com/api/store/all`
+- **Method**: `GET`
+- **Query Parameters**:
+
+  - `q` (optional): `string` - Nama channel store site yang ingin dicari.
+  - `limit` (optional): `number` - Batas jumlah store site yang ingin diambil. Default adalah 100.
+
+- **Contoh Request**:
+
+  - `api/store/all`
+
+- **Response**:
+
+```json
+[
+    {
+        "site": "KS00001",
+        "name": "PT. EIGERINDO MULTI PRODUK INDUSTRI",
+        "category": "KONSI",
+        "ip": ""
+    },
+    {
+        "site": "2031",
+        "name": "ST EX BP KATAMSO SEMARANG",
+        "category": "STORE",
+        "ip": "10.30.0.26"
+    },
+    {
+        "site": "2037",
+        "name": "ST EX SIMANJUNTAK",
+        "category": "STORE",
+        "ip": "10.30.0.39"
+    },
+    {
+        "site": "5001",
+        "name": "SH EX BP BIP",
+        "category": "STORE",
+        "ip": "10.30.0.40"
+    },
+    {
+        "site": "5009",
+        "name": "SH BP METROPOLITAN MALL",
+        "category": "STORE",
+        "ip": "10.30.0.22"
+    },
+]
+```
+
 ### Update Site Data
 
 - **URL**: `/store-sites/update-sites/:id`
