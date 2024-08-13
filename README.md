@@ -241,32 +241,25 @@
 
 ```json
 {
-  "userId": "number",
-  "storeSiteId": "number"
+   "userId": "number";
+   "storeSiteId": "number";
+   "user_name": "string";
+   "site_name": "string";
 }
 ```
 - **Response**:
 
 ```json
 {
-  "status": 201,
-  "message": "User added to store site successfully",
-  "storeUser": {
-    "user": {
-      "ID": 1,
-      "NIP": "123456",
-      "Name": "John Doe",
-      "Email": "john.doe@example.com",
-      "Jobroles": "admin"
+    "status": 200,
+    "message": "User added from store site successfully",
+    "storeUser": {
+        "user": "654321",
+        "storeSite": "KS00001",
+        "user_name": "Jane Smith",
+        "site_name": "PT. EIGERINDO MULTI PRODUK INDUSTRI"
     },
-    "storeSite": {
-      "ID": 2,
-      "site_channel": "online",
-      "name_channel": "Online Store",
-      "brand": "bodypack"
-    }
-  },
-  "error": false
+    "error": false
 }
 ```
 
@@ -278,8 +271,10 @@
 
 ```json
 {
-  "userId": "number",
-  "newStoreSiteId": "number"
+   "userId": "number";
+   "storeSiteId": "number";
+   "user_name": "string";
+   "site_name": "string";
 }
 ```
 
@@ -287,26 +282,41 @@
 
 ```json
 {
-  "status": 200,
-  "message": "User updated to new store site successfully",
-  "storeUser": {
-    "user": {
-      "ID": 1,
-      "NIP": "123456",
-      "Name": "John Doe",
-      "Email": "john.doe@example.com",
-      "Jobroles": "admin"
+    "status": 200,
+    "message": "User updated from store site successfully",
+    "storeUser": {
+        "user": "654321",
+        "storeSite": "KS00001",
+        "user_name": "Jane Smith",
+        "site_name": "PT. EIGERINDO MULTI PRODUK INDUSTRI"
     },
-    "storeSite": {
-      "ID": 2,
-      "site_channel": "online",
-      "name_channel": "Online Store",
-      "brand": "bodypack"
-    }
-  },
-  "error": false
+    "error": false
 }
 ```
+
+### Delete User to Store Site
+
+- **URL**: `/store-sites/delete/:userId`
+- **Method**: `DELETE`
+- **Request Params**: `userId` - `number`
+- **example**: `/store-sites/delete/654321`
+
+- **Response**:
+
+```json
+{
+    "status": 200,
+    "message": "User removed from store site successfully",
+    "storeUser": {
+        "user": "654321",
+        "storeSite": "KS00001",
+        "user_name": "Jane Smith",
+        "site_name": "PT. EIGERINDO MULTI PRODUK INDUSTRI"
+    },
+    "error": false
+}
+```
+
 
 ### Get All Artikel Data
 
