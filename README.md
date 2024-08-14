@@ -155,8 +155,10 @@
 - **Method**: `GET`
 - **Query Parameters**:
 
-  - `q` (optional): `string` - Nama channel store site yang ingin dicari.
+  - `store` (optional): `string` - Nama channel store site yang ingin dicari.
+  - `code` (optional): `string` - Nama code store site yang ingin dicari.
   - `limit` (optional): `number` - Batas jumlah store site yang ingin diambil. Default adalah 100.
+  - `offset` (optional): `number` - ?
 
 - **Contoh Request**:
 
