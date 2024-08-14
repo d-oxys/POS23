@@ -243,10 +243,10 @@
 
 ```json
 {
-   "userId": "number";
-   "storeSiteId": "number";
-   "user_name": "string";
-   "site_name": "string";
+   "userId": "number",
+   "storeSiteId": "number",
+   "user_name": "string",
+   "site_name": "string",
 }
 ```
 - **Response**:
@@ -273,10 +273,10 @@
 
 ```json
 {
-   "userId": "number";
-   "storeSiteId": "number";
-   "user_name": "string";
-   "site_name": "string";
+   "userId": "number",
+   "storeSiteId": "number",
+   "user_name": "string",
+   "site_name": "string",
 }
 ```
 
