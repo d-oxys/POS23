@@ -16,25 +16,19 @@
 
 ```json
 {
-  "status": 200,
-  "message": "Logged in successfully",
-  "user": {
-    "ID": 1,
-    "NIP": "123456",
-    "Name": "John Doe",
-    "Email": "john.doe@example.com",
-    "Jobroles": "admin",
-    "storeSites": [
-      {
+    "status": 200,
+    "message": "Logged in successfully",
+    "user": {
         "ID": 1,
-        "site_channel": "online",
-        "name_channel": "Online Store",
-        "brand": "bodypack"
-      }
-    ],
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuaXAiOiIxMjM0NTYiLCJqb2Jyb2xlIjoiYWRtaW4iLCJuYW1lIjoiSm9obiBEb2UiLCJpYXQiOjE3MjMxNjkwMTgsImV4cCI6MTcyMzQyODIxOH0.Zs3AJrFJEbbMvEhGm2UrGciRBtAprIUbJ3nZnHJjay4"
-  },
-  "error": false
+        "NIP": "123456",
+        "Name": "John Doe",
+        "Email": "john.doe@example.com",
+        "Jobroles": "admin",
+        "storeSite": "KS00001",
+        "storeSiteName": "PT. EIGERINDO MULTI PRODUK INDUSTRI",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmlwIjoiMTIzNDU2Iiwiam9icm9sZSI6ImFkbWluIiwibmFtZSI6IkpvaG4gRG9lIiwic2l0ZV9pZCI6IktTMDAwMDEiLCJpYXQiOjE3MjQ4MTYyOTUsImV4cCI6MTcyNTA3NTQ5NX0.YipCjTTKNOllejnf8HutuIsyb2mjmPGfxIwbUCXhBIw"
+    },
+    "error": false
 }
 ```
 
